@@ -44,6 +44,7 @@ function createGrid(size){
         for(let j=0; j < size; j++){ //columns
             const square = document.createElement("div");
             square.classList.add("square");
+            square.style.backgroundColor = "white";
             row.appendChild(square);
         }
         row.classList.add("row");
